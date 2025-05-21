@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - CEGA S.A</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+        body {
+            background-color: #FFFFFF;
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: #303234;
+            color: white;
+            padding: 20px 0;
+            overflow-y: auto;
+        }
+
+            .sidebar h4 {
+                color: white;
+                text-align: center;
+                margin-bottom: 1.5rem;
+            }
+
+            .sidebar a,
+            .sidebar button {
+                display: flex;
+                align-items: center;
+                padding: 10px 20px;
+                color: white;
+                text-decoration: none;
+                background: none;
+                border: none;
+                width: 100%;
+                text-align: left;
+            }
+
+                .sidebar a:hover,
+                .sidebar button:hover {
+                    background-color: #5ABF86;
+                    color: white;
+                }
+
+            .sidebar i {
+                margin-right: 10px;
+            }
+
+        .dropdown-toggle {
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            flex-direction: column;
+            margin-left: 30px;
+        }
+
+            .dropdown-content a {
+                font-size: 0.95rem;
+                padding: 6px 0;
+            }
+
+        .main-content {
+            margin-left: 250px;
+            padding: 2rem;
+            width: calc(100% - 250px);
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #666;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background-color: #03A64A;
+            border-color: #03A64A;
+        }
+
+            .btn-primary:hover {
+                background-color: #03A63C;
+                border-color: #03A63C;
+            }
+
+        .btn-success {
+            background-color: #5ABF86;
+            border-color: #5ABF86;
+        }
+
+            .btn-success:hover {
+                background-color: #91D980;
+                border-color: #91D980;
+            }
+
+        .btn-danger {
+            background-color: #dc3545;
+            border-color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h4>CEGA S.A</h4>
+
+        @if (Request.IsAuthenticated && User.IsInRole("Administrador"))
+        {
+            <a href="@Url.Action("Index", "Home")"><i class="fa fa-home"></i>Dashboard</a>
+            <div>
+                <a class="dropdown-toggle" onclick="toggleDropdown('empleadosDropdown')"><i class="fa fa-users"></i>Empleados <i class="fa fa-caret-down ms-auto"></i></a>
+                <div class="dropdown-content" id="empleadosDropdown">
+                    <a href="@Url.Action("Index", "Empleados")">Gestión</a>
+                    <a href="@Url.Action("Empleados", "Admin")">Vacaciones/Incapacidades</a>
+                </div>
+            </div>
+
+            <div>
+                <a class="dropdown-toggle" onclick="toggleDropdown('marketingDropdown')"><i class="fa fa-bullhorn"></i>Marketing <i class="fa fa-caret-down ms-auto"></i></a>
+                <div class="dropdown-content" id="marketingDropdown">
+                    <a href="@Url.Action("Index", "Marketing")">Campañas</a>
+                    <a href="@Url.Action("Correos", "Marketing")">Correos</a>
+                    <a href="@Url.Action("Clientes", "Marketing")">Clientes</a>
+                </div>
+            </div>
+
+            <div>
+                <a class="dropdown-toggle" onclick="toggleDropdown('contabilidadDropdown')"><i class="fa fa-calculator"></i>Contabilidad <i class="fa fa-caret-down ms-auto"></i></a>
+                <div class="dropdown-content" id="contabilidadDropdown">
+                    <a href="@Url.Action("Index", "Contabilidad")">Ingresos/Egresos</a>
+                    <a href="@Url.Action("CalculoSalarios", "Contabilidad")">Cálculo de Salarios</a>
+                </div>
+            </div>
+
+            <div>
+                <a class="dropdown-toggle" onclick="toggleDropdown('seguimientoDropdown')"><i class="fa fa-layer-group"></i>Seguimiento <i class="fa fa-caret-down ms-auto"></i></a>
+                <div class="dropdown-content" id="seguimientoDropdown">
+                    <a href="@Url.Action("Index", "Proyecto")">Proyectos</a>
+                    <span class="text-muted">Tareas (ver desde Proyectos)</span>
+                    <span class="text-muted">Subtareas (ver desde Tareas)</span>
+                    <span class="text-muted">Comentarios (ver desde Proyectos y Tareas)</span>
+                </div>
+            </div>
+
+            <a href="@Url.Action("Index", "Reporteria")"><i class="fa fa-chart-line"></i>Reportería</a>
+            <a href="@Url.Action("Carpetas", "Pdf")"><i class="fa fa-file-pdf"></i>Gestión de PDF</a>
+
+            <form action="@Url.Action("LogOff", "Account")" method="post" style="margin-top: 20px; padding: 0 20px;">
+                @Html.AntiForgeryToken()
+                <button type="submit" class="btn btn-danger w-100"><i class="fa fa-sign-out-alt"></i> Cerrar sesión</button>
+            </form>
+            <div class="mt-4 text-center">
+                @Html.Partial("_LoginPartial")
+            </div>
+
+        }
+        else
+        {
+            <a href="@Url.Action("Login", "Account")"><i class="fa fa-sign-in-alt"></i> Iniciar sesión</a>
+            <a href="@Url.Action("Register", "Account")"><i class="fa fa-user-plus"></i> Registrarse</a>
+        }
+    </div>
+
+    <div class="main-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - CEGA S.A</p>
+        </footer>
+    </div>
+
+    <script>
+        function toggleDropdown(id) {
+            const dropdown = document.getElementById(id);
+            dropdown.style.display = dropdown.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

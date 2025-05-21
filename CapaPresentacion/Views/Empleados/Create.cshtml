@@ -1,0 +1,48 @@
+﻿@model CapaPresentacion.Models.Empleado
+
+@{
+    ViewBag.Title = "Agregar Empleado";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card mt-4 p-4 shadow-sm">
+    <h2 class="mb-4">Agregar Empleado</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group mb-3">
+            @Html.LabelFor(model => model.Nombre)
+            @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control", placeholder = "Nombre completo" })
+            @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group mb-3">
+            @Html.LabelFor(model => model.Correo)
+            @Html.TextBoxFor(model => model.Correo, new { @class = "form-control", type = "email", placeholder = "Correo electrónico" })
+            @Html.ValidationMessageFor(model => model.Correo, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group mb-3">
+            @Html.LabelFor(model => model.Puesto)
+            @Html.TextBoxFor(model => model.Puesto, new { @class = "form-control", placeholder = "Puesto" })
+            @Html.ValidationMessageFor(model => model.Puesto, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group mb-3">
+            @Html.LabelFor(model => model.Salario)
+            @Html.TextBoxFor(model => model.Salario, new { @class = "form-control", type = "number", step = "0.01", placeholder = "Salario" })
+            @Html.ValidationMessageFor(model => model.Salario, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group mb-4">
+            @Html.LabelFor(model => model.FechaContratacion)
+            @Html.TextBoxFor(model => model.FechaContratacion, new { @class = "form-control", type = "date" })
+            @Html.ValidationMessageFor(model => model.FechaContratacion, "", new { @class = "text-danger" })
+        </div>
+
+        <button type="submit" class="btn" style="background-color: #03A64A; color: white;">Guardar</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary ms-2">Cancelar</a>
+    }
+</div>

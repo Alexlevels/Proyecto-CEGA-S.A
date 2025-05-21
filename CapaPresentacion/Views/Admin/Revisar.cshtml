@@ -1,0 +1,35 @@
+﻿@model List<CapaPresentacion.Models.Incapacidad>
+
+<h2>Solicitudes de Incapacidad</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Usuario</th>
+            <th>Fecha</th>
+            <th>Comprobante</th>
+            <th>Estado</th>
+            <th>Acción</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Usuario?.UserName</td>
+                <td>@item.Fecha.ToShortDateString()</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.ArchivoComprobante))
+                    {
+                        <a href="@Url.Content("~/ArchivosIncapacidades/" + item.ArchivoComprobante)" target="_blank">Ver</a>
+                    }
+                </td>
+                <td>@item.Estado</td>
+                <td>
+                    <a href="@Url.Action("CambiarEstado", new { id = item.Id, estado = "Aceptada" })" class="btn btn-success btn-sm">Aceptar</a>
+                    <a href="@Url.Action("CambiarEstado", new { id = item.Id, estado = "Rechazada" })" class="btn btn-danger btn-sm">Rechazar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

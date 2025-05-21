@@ -1,0 +1,19 @@
+﻿@model CapaPresentacion.Models.ComentarioTarea
+@{
+    ViewBag.Title = "Agregar Comentario a la Tarea";
+}
+
+<h2>Agregar Comentario</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.TareaId)
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Texto)
+        @Html.TextAreaFor(m => m.Texto, new { @class = "form-control", rows = 4 })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a href="@Url.Action("Index", new { tareaId = Model.TareaId })" class="btn btn-secondary">Cancelar</a>
+}

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<CapaPresentacion.Models.CarpetaDocumentacion>
+
+@{
+    ViewBag.Title = "Carpetas de Documentación";
+}
+
+<style>
+    .carpetas-container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .btn-crear {
+        background-color: #03A64A;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 12px;
+        color: white;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+        .btn-crear:hover {
+            background-color: #02903e;
+        }
+
+    .btn-info-sm {
+        background-color: #5ABF86;
+        border: none;
+        color: white;
+        padding: 6px 12px;
+        border-radius: 8px;
+        font-weight: 500;
+    }
+
+        .btn-info-sm:hover {
+            background-color: #03A64A;
+        }
+
+    .table th, .table td {
+        vertical-align: middle;
+    }
+</style>
+
+<div class="carpetas-container">
+    <h2 class="mb-4 text-primary">📁 Carpetas de Documentación</h2>
+
+    <a href="@Url.Action("CrearCarpeta")" class="btn btn-crear">+ Nueva Carpeta</a>
+
+    <table class="table table-striped">
+        <thead class="table-light">
+            <tr>
+                <th>Nombre</th>
+                <th style="width: 180px;">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var carpeta in Model)
+            {
+                <tr>
+                    <td>@carpeta.Nombre</td>
+                    <td>
+                        <a href="@Url.Action("Documentos", new { carpetaId = carpeta.Id })" class="btn btn-info-sm">📄 Ver Documentos</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

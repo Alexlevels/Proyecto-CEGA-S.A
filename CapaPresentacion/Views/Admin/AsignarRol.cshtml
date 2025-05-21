@@ -1,0 +1,25 @@
+﻿@model CapaPresentacion.Models.ApplicationUser
+
+@{
+    ViewBag.Title = "Asignar Rol";
+}
+
+<h2>Asignar Rol a Usuario</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.Hidden("id", Model.Id)
+
+    <div class="form-group">
+        <label>Email:</label>
+        <span>@Model.Email</span>
+    </div>
+
+    <div class="form-group">
+        <label>Rol:</label>
+        @Html.DropDownList("nuevoRol", ViewBag.Roles as SelectList, new { @class = "form-control" })
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar</button>
+    @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-secondary" })
+}

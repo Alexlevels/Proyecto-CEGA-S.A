@@ -1,0 +1,112 @@
+﻿@model IEnumerable<CapaPresentacion.Models.CorreoMarketing>
+
+<style>
+    h2 {
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #03A64A;
+        border-color: #03A64A;
+        color: white;
+        font-weight: 500;
+        border-radius: 8px;
+        padding: 8px 16px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #03A63C;
+            border-color: #03A63C;
+        }
+
+    .table {
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+        .table th {
+            background-color: #F4F4F4;
+            color: #303234;
+            padding: 12px;
+        }
+
+        .table td {
+            padding: 12px;
+            vertical-align: middle;
+        }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border: none;
+        color: white;
+        padding: 5px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+        .btn-danger:hover {
+            background-color: #bb2d3b;
+        }
+
+    .badge {
+        padding: 6px 10px;
+        border-radius: 6px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .bg-success {
+        background-color: #03A64A;
+        color: white;
+    }
+
+    .bg-secondary {
+        background-color: #F4F4F4;
+        color: #303234;
+    }
+</style>
+
+<h2>Pool de Correos</h2>
+
+<p>
+    @Html.ActionLink("Agregar nuevo correo", "CrearCorreo", null, new { @class = "btn btn-primary" })
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Correo</th>
+            <th>Verificado</th>
+            <th>Acción</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var correo in Model)
+        {
+            <tr>
+                <td>@correo.Correo</td>
+                <td>
+                    @if (correo.Verificado)
+                    {
+                        <span class="badge bg-success">Sí</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">No</span>
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("Eliminar", "EliminarCorreo", new { id = correo.Id }, new
+                    {
+                        onclick = "return confirm('¿Eliminar este correo?')",
+                        @class = "btn btn-danger btn-sm"
+                    })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

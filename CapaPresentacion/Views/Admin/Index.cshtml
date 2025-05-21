@@ -1,0 +1,36 @@
+﻿@model IEnumerable<CapaPresentacion.Models.ApplicationUser>
+
+@{
+    ViewBag.Title = "Panel de Administración";
+}
+
+<h2>Panel de Administración</h2>
+
+<form method="get" action="@Url.Action("BuscarUsuario")">
+    <input type="text" name="query" placeholder="Buscar usuario por correo o nombre..." />
+    <input type="submit" value="Buscar" class="btn btn-primary" />
+</form>
+
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Correo</th>
+            <th>Usuario</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model)
+        {
+            <tr>
+                <td>@usuario.Email</td>
+                <td>@usuario.UserName</td>
+                <td>
+                    @Html.ActionLink("Asignar Rol", "AsignarRol", new { id = usuario.Id }, new { @class = "btn btn-sm btn-warning" })
+                    |
+                    @Html.ActionLink("Eliminar", "EliminarUsuario", new { id = usuario.Id }, new { onclick = "return confirm('¿Seguro que deseas eliminar este usuario?')", @class = "btn btn-sm btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,89 @@
+﻿@using CapaPresentacion.Models
+@model IEnumerable<CapaPresentacion.Models.ClienteCampana>
+
+<style>
+    h2 {
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #03A64A;
+        border-color: #03A64A;
+        color: white;
+        font-weight: 500;
+        border-radius: 8px;
+        padding: 8px 16px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #03A63C;
+            border-color: #03A63C;
+        }
+
+    .table {
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+        .table th {
+            background-color: #F4F4F4;
+            color: #303234;
+            padding: 12px;
+        }
+
+        .table td {
+            padding: 12px;
+            vertical-align: middle;
+        }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border: none;
+        color: white;
+        padding: 5px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+        .btn-danger:hover {
+            background-color: #bb2d3b;
+        }
+</style>
+
+<h2>Clientes Registrados</h2>
+
+<p>
+    @Html.ActionLink("Agregar nuevo cliente", "CrearCliente", null, new { @class = "btn btn-primary" })
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Campaña Asignada</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cliente in Model)
+        {
+            <tr>
+                <td>@cliente.Nombre</td>
+                <td>@cliente.Correo</td>
+                <td>@(cliente.CampanaMarketing != null ? cliente.CampanaMarketing.Nombre : "Ninguna")</td>
+                <td>
+                    @Html.ActionLink("Eliminar", "EliminarCliente", new { id = cliente.Id }, new
+                    {
+                        onclick = "return confirm('¿Eliminar este cliente?')",
+                        @class = "btn btn-danger btn-sm"
+                    })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

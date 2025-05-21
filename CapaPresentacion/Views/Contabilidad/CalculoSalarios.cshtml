@@ -1,0 +1,64 @@
+﻿@model List<CapaPresentacion.Models.SalarioCalculadoViewModel>
+
+<style>
+    .salario-container {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.05);
+        margin-top: 30px;
+    }
+
+    h2 {
+        color: #303234;
+        margin-bottom: 25px;
+        font-weight: bold;
+    }
+
+    .table thead {
+        background-color: #f8f9fa;
+        color: #303234;
+    }
+
+    .table tbody tr td {
+        vertical-align: middle;
+    }
+
+    .table td:last-child {
+        font-weight: bold;
+        color: #03A64A;
+    }
+
+    .table {
+        border-radius: 12px;
+        overflow: hidden;
+    }
+</style>
+
+<div class="salario-container">
+    <h2>📊 Cálculo de Salarios - CEGA S.A.</h2>
+
+    <table class="table table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Empleado</th>
+                <th>Salario Base</th>
+                <th>Días No Trabajados</th>
+                <th>Descuento</th>
+                <th>Salario Neto</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td>@s.NombreEmpleado</td>
+                    <td>₡@s.SalarioBase.ToString("N2")</td>
+                    <td>@s.DiasNoTrabajados</td>
+                    <td>₡@s.Descuento.ToString("N2")</td>
+                    <td>₡@s.SalarioNeto.ToString("N2")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

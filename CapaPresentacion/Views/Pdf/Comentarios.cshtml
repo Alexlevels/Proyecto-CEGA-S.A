@@ -1,0 +1,68 @@
+﻿@model IEnumerable<CapaPresentacion.Models.ComentarioDocumento>
+@{
+    ViewBag.Title = "Comentarios del Documento";
+    int documentoId = ViewBag.DocumentoId;
+}
+
+<style>
+    .comentarios-container {
+        max-width: 700px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    }
+
+        .comentarios-container h2 {
+            font-weight: bold;
+            color: #303234;
+            margin-bottom: 25px;
+        }
+
+    .form-control {
+        border-radius: 10px;
+    }
+
+    .btn-primary-custom {
+        background-color: #03A64A;
+        color: white;
+        border: none;
+        padding: 10px 25px;
+        border-radius: 12px;
+        font-weight: 500;
+    }
+
+        .btn-primary-custom:hover {
+            background-color: #02903e;
+        }
+
+    .list-group-item {
+        border-radius: 8px;
+        margin-bottom: 8px;
+    }
+</style>
+
+<div class="comentarios-container">
+    <h2>📝 Comentarios del Documento</h2>
+
+    @using (Html.BeginForm("AgregarComentario", "Pdf", FormMethod.Post))
+    {
+        @Html.Hidden("documentoId", documentoId)
+        <div class="mb-3">
+            <label for="texto" class="form-label">Agregar nuevo comentario:</label>
+            <input type="text" name="texto" class="form-control" placeholder="Escribe tu comentario..." required />
+        </div>
+        <button type="submit" class="btn btn-primary-custom">Agregar</button>
+    }
+
+    <hr />
+
+    <h5 class="mt-4 mb-3">📄 Comentarios registrados:</h5>
+    <ul class="list-group">
+        @foreach (var comentario in Model)
+        {
+            <li class="list-group-item">@comentario.Texto</li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,40 @@
+﻿@model CapaPresentacion.Models.Tarea
+@{
+    ViewBag.Title = "Editar Tarea";
+}
+
+<h2>Editar Tarea</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.Id)
+    @Html.HiddenFor(m => m.ProyectoId)
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Titulo)
+        @Html.TextBoxFor(m => m.Titulo, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Descripcion)
+        @Html.TextAreaFor(m => m.Descripcion, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Estado)
+        @Html.TextBoxFor(m => m.Estado, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.FechaInicio)
+        @Html.TextBoxFor(m => m.FechaInicio, new { @class = "form-control", type = "date" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.FechaFin)
+        @Html.TextBoxFor(m => m.FechaFin, new { @class = "form-control", type = "date" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+    <a href="@Url.Action("Index", new { proyectoId = Model.ProyectoId })" class="btn btn-secondary">Cancelar</a>
+}

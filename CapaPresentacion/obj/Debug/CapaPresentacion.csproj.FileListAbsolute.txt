@@ -1,0 +1,246 @@
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\CapaPresentacion.dll.config
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\CapaPresentacion.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\CapaPresentacion.pdb
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\csc.exe
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\csc.exe.config
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\csc.rsp
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\csi.exe
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\csi.exe.config
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\csi.rsp
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.Managed.Core.targets
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.Win32.Primitives.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.AppContext.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Collections.Immutable.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Console.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Globalization.Calendars.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.IO.Compression.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.IO.Compression.ZipFile.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.IO.FileSystem.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Net.Http.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Net.Sockets.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Reflection.Metadata.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.ValueTuple.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Xml.ReaderWriter.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Xml.XmlDocument.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Xml.XPath.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\vbc.exe
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\vbc.exe.config
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\vbc.rsp
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\VBCSCompiler.exe
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\VBCSCompiler.exe.config
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Antlr3.Runtime.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\EntityFramework.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\EntityFramework.SqlServer.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.AspNet.Identity.Core.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.AspNet.Identity.Owin.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Host.SystemWeb.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Cookies.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Facebook.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Google.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.OAuth.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Twitter.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Web.Infrastructure.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Newtonsoft.Json.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Owin.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Helpers.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Mvc.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Optimization.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Razor.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.WebPages.Deployment.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.WebPages.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.WebPages.Razor.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\WebGrease.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Helpers.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Mvc.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Optimization.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Razor.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.WebPages.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.WebPages.Deployment.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.WebPages.Razor.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Newtonsoft.Json.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Antlr3.Runtime.pdb
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\EntityFramework.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\EntityFramework.SqlServer.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.AspNet.Identity.Core.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.AspNet.Identity.Owin.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Host.SystemWeb.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Facebook.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Cookies.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Google.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Twitter.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.OAuth.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.InitialCreate.resources
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.Inicial.resources
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.AgregarCamposEmpleado.resources
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.ActualizarModelo.resources
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearCampaniasMarketing.resources
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearCorreosMarketing.resources
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearClientesCampania.resources
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearTablasPdf.resources
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.Cambios.resources
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearTablaProyectos.resources
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearTablaTareas.resources
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearTablaSubtarea.resources
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearTablaSubtarea1.resources
+A:\Progra Avanzada\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearTablasComentarios.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\CapaPresentacion.dll.config
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\CapaPresentacion.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\CapaPresentacion.pdb
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\csc.exe
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\csc.exe.config
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\csc.rsp
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\csi.exe
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\csi.exe.config
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\csi.rsp
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.AppContext.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Console.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.IO.Compression.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Net.Http.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.ValueTuple.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\vbc.exe
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\vbc.exe.config
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\vbc.rsp
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Antlr3.Runtime.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\EntityFramework.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\EntityFramework.SqlServer.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Newtonsoft.Json.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Owin.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Helpers.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Mvc.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Optimization.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Razor.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.WebPages.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.WebPages.Razor.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\WebGrease.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Helpers.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Mvc.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Optimization.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.Razor.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.WebPages.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\System.Web.WebPages.Razor.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Newtonsoft.Json.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Antlr3.Runtime.pdb
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\EntityFramework.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\EntityFramework.SqlServer.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.InitialCreate.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.Inicial.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.AgregarCamposEmpleado.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.ActualizarModelo.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearCampaniasMarketing.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearCorreosMarketing.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearClientesCampania.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearTablasPdf.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.Cambios.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearTablaProyectos.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearTablaTareas.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearTablaSubtarea.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearTablaSubtarea1.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Migrations.CrearTablasComentarios.resources
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\valed\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

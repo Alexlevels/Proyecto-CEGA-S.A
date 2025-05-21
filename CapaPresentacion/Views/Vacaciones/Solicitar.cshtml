@@ -1,0 +1,61 @@
+﻿@model CapaPresentacion.Models.Vacacion
+
+@{
+    ViewBag.Title = "Solicitud de Vacaciones";
+}
+
+<style>
+    .form-container {
+        background: #ffffff;
+        padding: 25px;
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.05);
+        max-width: 500px;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    h2 {
+        color: #303234;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .form-control {
+        border-radius: 10px;
+    }
+
+    .btn-success {
+        background-color: #03A64A;
+        border-color: #03A64A;
+    }
+
+        .btn-success:hover {
+            background-color: #028a3c;
+            border-color: #028a3c;
+        }
+</style>
+
+<div class="form-container">
+    <h2>🗓️ Solicitud de Vacaciones</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group mb-3">
+            @Html.LabelFor(m => m.FechaInicio)
+            @Html.TextBoxFor(m => m.FechaInicio, new { @class = "form-control", type = "date" })
+        </div>
+
+        <div class="form-group mb-4">
+            @Html.LabelFor(m => m.FechaFin)
+            @Html.TextBoxFor(m => m.FechaFin, new { @class = "form-control", type = "date" })
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-success px-4">✅ Enviar solicitud</button>
+        </div>
+    }
+</div>

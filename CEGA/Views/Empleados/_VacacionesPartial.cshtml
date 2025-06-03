@@ -1,0 +1,29 @@
+﻿@model IEnumerable<CEGA.Models.VacacionesEmpleado>
+
+<h4 class="mt-5">🌴 Solicitudes de Vacaciones</h4>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead class="table-dark">
+        <tr>
+            <th>Empleado</th>
+            <th>Fecha de Inicio</th>
+            <th>Días Solicitados</th>
+            <th>Días Disponibles</th>
+            <th>Estado</th>
+            <th>Fecha de Solicitud</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vac in Model)
+        {
+            <tr>
+                <td>@vac.UsuarioID</td>
+                <td>@vac.FechaInicio.ToShortDateString()</td>
+                <td>@vac.DiasSolicitados</td>
+                <td>@vac.DiasDisponibles</td>
+                <td>@vac.Estado</td>
+                <td>@vac.FechaSolicitud.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

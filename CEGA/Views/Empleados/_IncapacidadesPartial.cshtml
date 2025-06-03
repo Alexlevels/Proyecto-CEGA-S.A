@@ -1,0 +1,29 @@
+﻿@model IEnumerable<CEGA.Models.IncapacidadEmpleado>
+
+<h4 class="mt-5">📝 Incapacidades Presentadas</h4>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead class="table-dark">
+        <tr>
+            <th>Empleado</th>
+            <th>Descripción</th>
+            <th>Archivo</th>
+            <th>Fecha de Presentación</th>
+            <th>Estado</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var inc in Model)
+        {
+            <tr>
+                <td>@inc.UsuarioID</td>
+                <td>@inc.Descripcion</td>
+                <td>
+                    <a href="@Url.Content(inc.ArchivoRuta)" target="_blank">📎 Ver archivo</a>
+                </td>
+                <td>@inc.FechaPresentacion.ToShortDateString()</td>
+                <td>@inc.Estado</td>
+            </tr>
+        }
+    </tbody>
+</table>

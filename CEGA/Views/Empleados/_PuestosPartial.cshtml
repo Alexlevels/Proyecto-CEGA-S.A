@@ -1,0 +1,25 @@
+﻿@model IEnumerable<CEGA.Models.PuestoEmpleado>
+
+<h4 class="mt-5">📌 Puestos Asignados</h4>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead class="table-dark">
+        <tr>
+            <th>Empleado</th>
+            <th>Puesto</th>
+            <th>Salario Asignado</th>
+            <th>Fecha de Asignación</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var puesto in Model)
+        {
+            <tr>
+                <td>@puesto.UsuarioID</td>
+                <td>@puesto.Puesto</td>
+                <td>₡@puesto.SalarioAsignado</td>
+                <td>@puesto.FechaAsignacion.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

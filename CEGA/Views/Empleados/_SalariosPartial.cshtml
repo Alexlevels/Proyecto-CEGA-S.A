@@ -1,0 +1,30 @@
+﻿@model IEnumerable<CEGA.Models.EmpleadoSalario>
+
+<h4 class="mt-4">💰 Salarios Registrados</h4>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-sm mt-2">
+        <thead class="table-dark">
+            <tr>
+                <th> Usuario</th>
+                <th> Salario Mensual</th>
+                <th> Fecha Registro</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.UsuarioId</td>
+                    <td>@item.SalarioMensual.ToString("C")</td>
+                    <td>@item.FechaRegistro.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">No hay salarios registrados aún.</div>
+}

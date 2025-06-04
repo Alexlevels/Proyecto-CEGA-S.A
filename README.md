@@ -1,1 +1,0 @@
-# Proyecto-CEGA-S.A

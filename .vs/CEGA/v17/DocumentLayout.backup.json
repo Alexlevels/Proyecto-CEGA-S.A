@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\documents\\github\\proyecto-cega-s.a\\cega\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\documents\\github\\proyecto-cega-s.a\\cega\\views\\empleados\\empleados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\empleados\\empleados.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\documents\\github\\proyecto-cega-s.a\\cega\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\documents\\github\\proyecto-cega-s.a\\cega\\views\\empleados\\_vacacionespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\empleados\\_vacacionespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\documents\\github\\proyecto-cega-s.a\\cega\\views\\empleados\\_incapacidadespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\empleados\\_incapacidadespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\documents\\github\\proyecto-cega-s.a\\cega\\views\\empleados\\_puestospartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\empleados\\_puestospartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\documents\\github\\proyecto-cega-s.a\\cega\\views\\empleados\\_salariospartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\empleados\\_salariospartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 399,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "CEGA\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Data\\SeedData.cs*",
+              "RelativeToolTip": "CEGA\\Data\\SeedData.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T00:25:12.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CEGA\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CEGA\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAAACsBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T01:21:13.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Empleados.cshtml",
+              "DocumentMoniker": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Views\\Empleados\\Empleados.cshtml",
+              "RelativeDocumentMoniker": "CEGA\\Views\\Empleados\\Empleados.cshtml",
+              "ToolTip": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Views\\Empleados\\Empleados.cshtml",
+              "RelativeToolTip": "CEGA\\Views\\Empleados\\Empleados.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T01:20:49.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_VacacionesPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Views\\Empleados\\_VacacionesPartial.cshtml",
+              "RelativeDocumentMoniker": "CEGA\\Views\\Empleados\\_VacacionesPartial.cshtml",
+              "ToolTip": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Views\\Empleados\\_VacacionesPartial.cshtml",
+              "RelativeToolTip": "CEGA\\Views\\Empleados\\_VacacionesPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T01:20:48.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_SalariosPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Views\\Empleados\\_SalariosPartial.cshtml",
+              "RelativeDocumentMoniker": "CEGA\\Views\\Empleados\\_SalariosPartial.cshtml",
+              "ToolTip": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Views\\Empleados\\_SalariosPartial.cshtml",
+              "RelativeToolTip": "CEGA\\Views\\Empleados\\_SalariosPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T01:20:48.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_PuestosPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Views\\Empleados\\_PuestosPartial.cshtml",
+              "RelativeDocumentMoniker": "CEGA\\Views\\Empleados\\_PuestosPartial.cshtml",
+              "ToolTip": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Views\\Empleados\\_PuestosPartial.cshtml",
+              "RelativeToolTip": "CEGA\\Views\\Empleados\\_PuestosPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T01:20:47.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_IncapacidadesPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Views\\Empleados\\_IncapacidadesPartial.cshtml",
+              "RelativeDocumentMoniker": "CEGA\\Views\\Empleados\\_IncapacidadesPartial.cshtml",
+              "ToolTip": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Views\\Empleados\\_IncapacidadesPartial.cshtml",
+              "RelativeToolTip": "CEGA\\Views\\Empleados\\_IncapacidadesPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T01:20:47.174Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

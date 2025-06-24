@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\CEGA.csproj": {}
+    "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\CEGA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\CEGA.csproj": {
+    "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\CEGA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\CEGA.csproj",
+        "projectUniqueName": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\CEGA.csproj",
         "projectName": "CEGA",
-        "projectPath": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\CEGA.csproj",
+        "projectPath": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\CEGA.csproj",
         "packagesPath": "C:\\Users\\valed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\obj\\",
+        "outputPath": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

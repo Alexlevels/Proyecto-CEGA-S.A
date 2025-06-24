@@ -1,7 +1,6 @@
 ﻿using CEGA.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 
 namespace CEGA.Data
 {
@@ -11,7 +10,6 @@ namespace CEGA.Data
         {
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
             var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
-            var logger = serviceProvider.GetRequiredService<ILogger<SeedData>>();
 
             // Crear rol administrador si no existe
             string[] roles = { "Admin", "Empleado", "Cliente" };
@@ -20,11 +18,7 @@ namespace CEGA.Data
             {
                 if (!await roleManager.RoleExistsAsync(role))
                 {
-                    var result = await roleManager.CreateAsync(new IdentityRole(role));
-                    if (!result.Succeeded)
-                    {
-                        logger.LogError("Error al crear el rol {Role}: {Errors}", role, string.Join(", ", result.Errors.Select(e => e.Description)));
-                    }
+                    await roleManager.CreateAsync(new IdentityRole(role));
                 }
             }
 

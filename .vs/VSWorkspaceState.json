@@ -1,16 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github",
-    "\\.github\\workflows",
     "\\CEGA",
-    "\\CEGA\\bin",
-    "\\CEGA\\bin\\Debug",
-    "\\CEGA\\bin\\Debug\\net8.0",
-    "\\CEGA\\bin\\Release",
-    "\\CEGA\\bin\\Release\\net8.0",
-    "\\CEGA\\obj"
+    "\\CEGA\\Views",
+    "\\CEGA\\Views\\Shared"
   ],
-  "SelectedNode": "\\CEGA\\CEGA.csproj.user",
+  "SelectedNode": "\\CEGA.sln",
   "PreviewInSolutionExplorer": false
 }

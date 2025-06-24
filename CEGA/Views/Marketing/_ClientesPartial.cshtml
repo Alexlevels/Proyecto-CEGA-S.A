@@ -1,0 +1,58 @@
+﻿@model IEnumerable<CEGA.Models.ClienteMarketing>
+
+<h4 class="mt-5">👥 Clientes Registrados</h4>
+
+<!-- Botón para agregar -->
+<form asp-action="CrearCliente" asp-controller="Marketing" method="post" class="mb-3">
+    <div class="row">
+        <div class="col-md-3">
+            <input name="Nombre" class="form-control" placeholder="Nombre Cliente" required />
+        </div>
+        <div class="col-md-3">
+            <input name="Correo" class="form-control" placeholder="Correo Electrónico" required />
+        </div>
+        <div class="col-md-3">
+            <input name="Telefono" class="form-control" placeholder="Teléfono" required />
+        </div>
+        <div class="col-md-3">
+            <button type="submit" class="btn btn-success w-100">➕ Agregar Cliente</button>
+        </div>
+    </div>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Teléfono</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cli in Model)
+            {
+                <tr>
+                    <td>@cli.Nombre</td>
+                    <td>@cli.Correo</td>
+                    <td>@cli.Telefono</td>
+                    <td>
+                        <form asp-action="EditarCliente" asp-controller="Marketing" method="post" class="d-inline">
+                            <input type="hidden" name="Id" value="@cli.Id" />
+                            <button type="submit" class="btn btn-sm btn-primary">✏️</button>
+                        </form>
+                        <form asp-action="EliminarCliente" asp-controller="Marketing" method="post" class="d-inline" onsubmit="return confirm('¿Eliminar este cliente?');">
+                            <input type="hidden" name="id" value="@cli.Id" />
+                            <button type="submit" class="btn btn-sm btn-danger">🗑️</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

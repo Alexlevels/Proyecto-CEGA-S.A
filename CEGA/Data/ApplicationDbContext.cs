@@ -22,6 +22,15 @@ namespace CEGA.Data
         public DbSet<PuestoEmpleado> PuestosEmpleado { get; set; }
         public DbSet<HistorialPuestos> HistorialPuestos { get; set; }
         public DbSet<IncapacidadEmpleado> IncapacidadesEmpleado { get; set; }
+        public DbSet<Ingreso> Ingresos { get; set; }
+        public DbSet<Egreso> Egresos { get; set; }
+        public DbSet<CierreDiario> CierresDiarios { get; set; }
+        public DbSet<CierreRango> CierresRango { get; set; }
+        public DbSet<IncapacidadEmpleado> Incapacidades { get; set; }
+        public DbSet<ReporteIncapacidad> ReportesIncapacidades { get; set; }
+        public DbSet<ReporteIncidente> ReportesIncidentes { get; set; }
+        public DbSet<ReporteEntradaSalida> ReportesEntradasSalidas { get; set; }
+
 
     }
 }

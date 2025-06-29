@@ -8,8 +8,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Clientes - Copia\**" />
+    <Compile Remove="Views\Marketing\NewFolder\**" />
+    <Content Remove="Views\Clientes - Copia\**" />
+    <Content Remove="Views\Marketing\NewFolder\**" />
+    <EmbeddedResource Remove="Views\Clientes - Copia\**" />
+    <EmbeddedResource Remove="Views\Marketing\NewFolder\**" />
+    <None Remove="Views\Clientes - Copia\**" />
+    <None Remove="Views\Marketing\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Marketing\Campana.cshtml" />
+    <Content Remove="Views\Marketing\Clientes.cshtml" />
+    <Content Remove="Views\Marketing\Distribuciones.cshtml" />
     <Content Remove="Views\Marketing\Index.cshtml" />
     <Content Remove="Views\Marketing\Index1.cshtml" />
+    <Content Remove="Views\Marketing\Pool_Correos.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

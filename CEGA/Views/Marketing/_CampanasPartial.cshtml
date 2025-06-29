@@ -25,12 +25,10 @@
                         <img src="@camp.ImagenUrl" alt="Imagen Campaña" width="80" height="80" />
                     </td>
                     <td>
-                        <form asp-action="EditarCampaña" asp-controller="Marketing" method="post" class="d-inline">
-                            <input type="hidden" name="Id" value="@camp.Id" />
-                            <button type="submit" class="btn btn-sm btn-primary">✏️ Editar</button>
-                        </form>
+                        <a asp-action="EditarCampaña" asp-controller="Marketing" asp-route-id="@camp.Id" class="btn btn-sm btn-primary">✏️ Editar</a>
 
-                        <form asp-action="EliminarCampaña" asp-controller="Marketing" method="post" class="d-inline" onsubmit="return confirm('¿Estás seguro de eliminar esta campaña?');">
+                        <form asp-action="ConfirmarEliminarCampaña" asp-controller="Marketing" method="post" class="d-inline" onsubmit="return confirm('¿Estás seguro de eliminar esta campaña?');">
+                            @Html.AntiForgeryToken()
                             <input type="hidden" name="id" value="@camp.Id" />
                             <button type="submit" class="btn btn-sm btn-danger">🗑️ Eliminar</button>
                         </form>

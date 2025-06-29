@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Gsraj/r+8A=",
+  "dgSpecHash": "VlNG3P1qVA4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\CEGA.csproj",
+  "projectFilePath": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\CEGA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valed\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\valed\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -58,6 +58,7 @@
     "C:\\Users\\valed\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\valed\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\valed\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
+    "C:\\Users\\valed\\.nuget\\packages\\questpdf\\2025.5.1\\questpdf.2025.5.1.nupkg.sha512",
     "C:\\Users\\valed\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\valed\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\valed\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",

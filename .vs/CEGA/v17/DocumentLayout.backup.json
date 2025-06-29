@@ -1,46 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\",
+  "WorkspaceRootPath": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\downloads\\proyecto-cega-s.a (2)\\proyecto-cega-s.a\\cega\\controllers\\marketingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\controllers\\marketingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\documents\\github\\proyecto-cega-s.a\\cega\\views\\marketing\\marketing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\marketing\\marketing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\downloads\\proyecto-cega-s.a (2)\\proyecto-cega-s.a\\cega\\views\\marketing\\_clientespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\marketing\\_clientespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\documents\\github\\proyecto-cega-s.a\\cega\\models\\programaciondistribucion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\models\\programaciondistribucion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\downloads\\proyecto-cega-s.a (2)\\proyecto-cega-s.a\\cega\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\documents\\github\\proyecto-cega-s.a\\cega\\models\\poolcorreo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\models\\poolcorreo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\downloads\\proyecto-cega-s.a (2)\\proyecto-cega-s.a\\cega\\views\\marketing\\_campanaspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\marketing\\_campanaspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\documents\\github\\proyecto-cega-s.a\\cega\\models\\distribucionmarketing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\models\\distribucionmarketing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\downloads\\proyecto-cega-s.a (2)\\proyecto-cega-s.a\\cega\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\downloads\\proyecto-cega-s.a (2)\\proyecto-cega-s.a\\cega\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\downloads\\proyecto-cega-s.a (2)\\proyecto-cega-s.a\\cega\\views\\account\\asignarrol.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\account\\asignarrol.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\downloads\\proyecto-cega-s.a (2)\\proyecto-cega-s.a\\cega\\views\\marketing\\_poolspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\marketing\\_poolspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\downloads\\proyecto-cega-s.a (2)\\proyecto-cega-s.a\\cega\\views\\marketing\\_distribucionespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\marketing\\_distribucionespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\downloads\\proyecto-cega-s.a (2)\\proyecto-cega-s.a\\cega\\views\\marketing\\editarcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\views\\marketing\\editarcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|c:\\users\\valed\\documents\\github\\proyecto-cega-s.a\\cega\\models\\campmarketing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A69C8C32-740B-4FF5-9116-1A8FA00058D0}|CEGA\\CEGA.csproj|solutionrelative:cega\\models\\campmarketing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 399,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,132 +54,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditProfile.cshtml",
-              "DocumentMoniker": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Account\\EditProfile.cshtml",
-              "RelativeDocumentMoniker": "CEGA\\Views\\Account\\EditProfile.cshtml",
-              "ToolTip": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Account\\EditProfile.cshtml",
-              "RelativeToolTip": "CEGA\\Views\\Account\\EditProfile.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T04:54:36.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AsignarRol.cshtml",
-              "DocumentMoniker": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Account\\AsignarRol.cshtml",
-              "RelativeDocumentMoniker": "CEGA\\Views\\Account\\AsignarRol.cshtml",
-              "ToolTip": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Account\\AsignarRol.cshtml",
-              "RelativeToolTip": "CEGA\\Views\\Account\\AsignarRol.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T04:54:26.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EditarCliente.cshtml",
-              "DocumentMoniker": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Marketing\\EditarCliente.cshtml",
-              "RelativeDocumentMoniker": "CEGA\\Views\\Marketing\\EditarCliente.cshtml",
-              "ToolTip": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Marketing\\EditarCliente.cshtml",
-              "RelativeToolTip": "CEGA\\Views\\Marketing\\EditarCliente.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T04:44:52.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_DistribucionesPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Marketing\\_DistribucionesPartial.cshtml",
-              "RelativeDocumentMoniker": "CEGA\\Views\\Marketing\\_DistribucionesPartial.cshtml",
-              "ToolTip": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Marketing\\_DistribucionesPartial.cshtml",
-              "RelativeToolTip": "CEGA\\Views\\Marketing\\_DistribucionesPartial.cshtml",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAAEIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T04:29:09.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_PoolsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Marketing\\_PoolsPartial.cshtml",
-              "RelativeDocumentMoniker": "CEGA\\Views\\Marketing\\_PoolsPartial.cshtml",
-              "ToolTip": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Marketing\\_PoolsPartial.cshtml",
-              "RelativeToolTip": "CEGA\\Views\\Marketing\\_PoolsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T04:23:55.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_CampanasPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Marketing\\_CampanasPartial.cshtml",
-              "RelativeDocumentMoniker": "CEGA\\Views\\Marketing\\_CampanasPartial.cshtml",
-              "ToolTip": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Marketing\\_CampanasPartial.cshtml",
-              "RelativeToolTip": "CEGA\\Views\\Marketing\\_CampanasPartial.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T04:22:59.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_ClientesPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Marketing\\_ClientesPartial.cshtml",
-              "RelativeDocumentMoniker": "CEGA\\Views\\Marketing\\_ClientesPartial.cshtml",
-              "ToolTip": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Marketing\\_ClientesPartial.cshtml",
-              "RelativeToolTip": "CEGA\\Views\\Marketing\\_ClientesPartial.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T04:14:35.227Z",
+              "Title": "ProgramacionDistribucion.cs",
+              "DocumentMoniker": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Models\\ProgramacionDistribucion.cs",
+              "RelativeDocumentMoniker": "CEGA\\Models\\ProgramacionDistribucion.cs",
+              "ToolTip": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Models\\ProgramacionDistribucion.cs",
+              "RelativeToolTip": "CEGA\\Models\\ProgramacionDistribucion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T21:11:10.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "CEGA\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "CEGA\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T04:58:00.662Z",
+              "Title": "PoolCorreo.cs",
+              "DocumentMoniker": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Models\\PoolCorreo.cs",
+              "RelativeDocumentMoniker": "CEGA\\Models\\PoolCorreo.cs",
+              "ToolTip": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Models\\PoolCorreo.cs",
+              "RelativeToolTip": "CEGA\\Models\\PoolCorreo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T21:10:58.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DistribucionMarketing.cs",
+              "DocumentMoniker": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Models\\DistribucionMarketing.cs",
+              "RelativeDocumentMoniker": "CEGA\\Models\\DistribucionMarketing.cs",
+              "ToolTip": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Models\\DistribucionMarketing.cs",
+              "RelativeToolTip": "CEGA\\Models\\DistribucionMarketing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T21:10:42.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CampMarketing.cs",
+              "DocumentMoniker": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Models\\CampMarketing.cs",
+              "RelativeDocumentMoniker": "CEGA\\Models\\CampMarketing.cs",
+              "ToolTip": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Models\\CampMarketing.cs",
+              "RelativeToolTip": "CEGA\\Models\\CampMarketing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T21:04:45.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MarketingController.cs",
-              "DocumentMoniker": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Controllers\\MarketingController.cs",
-              "RelativeDocumentMoniker": "CEGA\\Controllers\\MarketingController.cs",
-              "ToolTip": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Controllers\\MarketingController.cs*",
-              "RelativeToolTip": "CEGA\\Controllers\\MarketingController.cs*",
-              "ViewState": "AgIAAMYBAAAAAAAAAAAUwNsBAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T04:14:29.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "CEGA\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\valed\\Downloads\\Proyecto-CEGA-S.A (2)\\Proyecto-CEGA-S.A\\CEGA\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "CEGA\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAYwHIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T04:54:50.043Z",
+              "Title": "Marketing.cshtml",
+              "DocumentMoniker": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Views\\Marketing\\Marketing.cshtml",
+              "RelativeDocumentMoniker": "CEGA\\Views\\Marketing\\Marketing.cshtml",
+              "ToolTip": "C:\\Users\\valed\\Documents\\GitHub\\Proyecto-CEGA-S.A\\CEGA\\Views\\Marketing\\Marketing.cshtml",
+              "RelativeToolTip": "CEGA\\Views\\Marketing\\Marketing.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAMEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T20:25:06.727Z",
               "EditorCaption": ""
             }
           ]

@@ -1,58 +1,563 @@
-﻿@{
-    ViewData["Title"] = "Marketing";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Module</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --success-color: #27ae60;
+            --danger-color: #e74c3c;
+            --warning-color: #f39c12;
+            --light-color: #ecf0f1;
+            --dark-color: #34495e;
+        }
 
-<h2 class="text-center mb-4">📣 Módulo de Marketing</h2>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-@if (TempData["Mensaje"] != null)
-{
-    <div class="alert alert-success">@TempData["Mensaje"]</div>
-}
-@if (TempData["Error"] != null)
-{
-    <div class="alert alert-danger">@TempData["Error"]</div>
-}
+        .card-header {
+            background-color: var(--primary-color);
+            color: white;
+        }
 
-<ul class="nav nav-tabs" id="marketingTabs" role="tablist">
-    <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="camp-tab" data-bs-toggle="tab" data-bs-target="#camp" type="button" role="tab">Campañas</button>
-    </li>
-    <li class="nav-item" role="presentation">
-        <button class="nav-link" id="pool-tab" data-bs-toggle="tab" data-bs-target="#pool" type="button" role="tab">Pools de Correos</button>
-    </li>
-    <li class="nav-item" role="presentation">
-        <button class="nav-link" id="dist-tab" data-bs-toggle="tab" data-bs-target="#dist" type="button" role="tab">Distribuciones</button>
-    </li>
-    <li class="nav-item" role="presentation">
-        <button class="nav-link" id="clientes-tab" data-bs-toggle="tab" data-bs-target="#clientes" type="button" role="tab">Clientes</button>
-    </li>
-</ul>
+        .nav-tabs .nav-link {
+            color: var(--dark-color);
+            font-weight: 500;
+        }
 
-<div class="tab-content mt-4">
-    <div class="tab-pane fade show active" id="camp" role="tabpanel">
-        @await Html.PartialAsync("_CampanasPartial", ViewBag.Campanias as IEnumerable<CEGA.Models.CampMarketing>)
+            .nav-tabs .nav-link.active {
+                color: var(--secondary-color);
+                font-weight: 600;
+                border-bottom: 3px solid var(--secondary-color);
+            }
+
+        .table th {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .btn-success {
+            background-color: var(--success-color);
+            border-color: var(--success-color);
+        }
+
+        .btn-primary {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+        }
+
+        .btn-danger {
+            background-color: var(--danger-color);
+            border-color: var(--danger-color);
+        }
+
+        .btn-warning {
+            background-color: var(--warning-color);
+            border-color: var(--warning-color);
+        }
+
+        .campaign-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .action-buttons .btn {
+            margin-right: 5px;
+        }
+
+        .badge {
+            font-weight: 400;
+        }
+
+        #notificationArea {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            width: 350px;
+        }
+
+        media (max-width: 768px) {
+            .form-row .col-md-3, .form-row .col-md-2, .form-row .col-md-1
+
+        {
+            margin-bottom: 10px;
+        }
+
+        .action-buttons .btn {
+            margin-bottom: 5px;
+            margin-right: 0;
+            width: 100%;
+        }
+
+        }</style>
+</head>
+<body>
+    <div class="container-fluid mt-4">
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2 class="text-center mb-3"><i class="bi bi-megaphone"></i> Marketing Module</h2>
+            </div>
+        </div>
+
+        <!-- Notification Area -->
+        <div id="notificationArea"></div>
+
+        <!-- Main Tabs -->
+        <ul class="nav nav-tabs" id="marketingTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="campaigns-tab" data-bs-toggle="tab" data-bs-target="#campaigns" type="button" role="tab">
+                    <i class="bi bi-megaphone"></i> Campaigns
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pools-tab" data-bs-toggle="tab" data-bs-target="#pools" type="button" role="tab">
+                    <i class="bi bi-mailbox"></i> Email Pools
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="distributions-tab" data-bs-toggle="tab" data-bs-target="#distributions" type="button" role="tab">
+                    <i class="bi bi-send"></i> Distributions
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="clients-tab" data-bs-toggle="tab" data-bs-target="#clients" type="button" role="tab">
+                    <i class="bi bi-people"></i> Clients
+                </button>
+            </li>
+        </ul>
+
+        <!-- Tab Contents -->
+        <div class="tab-content p-3 border border-top-0 rounded-bottom bg-white" id="marketingTabContent">
+            <!-- Campaigns Tab -->
+            <div class="tab-pane fade show active" id="campaigns" role="tabpanel">
+                <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">Create New Campaign</h5>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="CrearCampaña" asp-controller="Marketing" method="post" class="row g-3">
+                            <div class="col-md-6">
+                                <label for="campaignName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="campaignName" name="Nombre" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="campaignSubject" class="form-label">Email Subject</label>
+                                <input type="text" class="form-control" id="campaignSubject" name="AsuntoCorreo" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="campaignDescription" class="form-label">Description</label>
+                                <textarea class="form-control" id="campaignDescription" name="Descripcion" rows="2" required></textarea>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="campaignImage" class="form-label">Image URL</label>
+                                <input type="text" class="form-control" id="campaignImage" name="ImagenUrl">
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-success">
+                                    <i class="bi bi-save"></i> Create Campaign
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">Campaigns List</h5>
+                        <div>
+                            <input type="text" class="form-control" id="searchCampaign" placeholder="Search campaigns...">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-striped">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Subject</th>
+                                        <th>Description</th>
+                                        <th>Image</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="campaignsTableBody">
+                                    @foreach (var camp in ViewBag.Campanias)
+                                    {
+                                        <tr>
+                                            <td>@camp.Nombre</td>
+                                            <td>@camp.AsuntoCorreo</td>
+                                            <td>@camp.Descripcion</td>
+                                            <td>
+                                                <img src="@camp.ImagenUrl" alt="@camp.Nombre campaign image" class="campaign-image">
+                                            </td>
+                                            <td class="action-buttons">
+                                                <form asp-action="EditarCampaña" method="get" class="d-inline">
+                                                    <input type="hidden" name="id" value="@camp.Id" />
+                                                    <button type="submit" class="btn btn-sm btn-primary">
+                                                        <i class="bi bi-pencil"></i> Edit
+                                                    </button>
+                                                </form>
+                                                <form asp-action="EliminarCampaña" method="post" class="d-inline">
+                                                    <input type="hidden" name="id" value="@camp.Id" />
+                                                    <button type="submit" class="btn btn-sm btn-danger"
+                                                            onclick="return confirm('¿Seguro que quieres eliminar esta campaña?')">
+                                                        <i class="bi bi-trash"></i> Delete
+                                                    </button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Email Pools Tab -->
+            <div class="tab-pane fade" id="pools" role="tabpanel">
+                <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">Create Email Pool</h5>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="CrearPoolCorreo" asp-controller="Marketing" method="post" class="row g-3">
+                            <div class="col-md-6">
+                                <label for="poolName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="poolName" name="Nombre" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="poolDescription" class="form-label">Description</label>
+                                <input type="text" class="form-control" id="poolDescription" name="Descripcion" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="poolEmails" class="form-label">Emails (separated by semicolons)</label>
+                                <textarea class="form-control" id="poolEmails" name="Correos" rows="3" required></textarea>
+                                <div class="form-text">Example: email1@domain.com;email2@domain.com</div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-success">
+                                    <i class="bi bi-save"></i> Create Pool
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">Email Pools List</h5>
+                        <div>
+                            <input type="text" class="form-control" id="searchPool" placeholder="Search pools...">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-striped">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Description</th>
+                                        <th>Emails</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="poolsTableBody">
+                                    <!-- Sample pool row -->
+                                    <tr>
+                                        <td>VIP Customers</td>
+                                        <td>Our top customers</td>
+                                        <td>
+                                            <span class="badge bg-primary">customer1@example.com</span>
+                                            <span class="badge bg-primary">customer2@example.com</span>
+                                            <span class="badge bg-primary">customer3@example.com</span>
+                                        </td>
+                                        <td class="action-buttons">
+                                            <button class="btn btn-sm btn-primary edit-pool">
+                                                <i class="bi bi-pencil"></i> Edit
+                                            </button>
+                                            <button class="btn btn-sm btn-danger delete-pool">
+                                                <i class="bi bi-trash"></i> Delete
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <!-- More rows will be added dynamically -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Distributions Tab -->
+            <div class="tab-pane fade" id="distributions" role="tabpanel">
+                <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">Create Distribution Schedule</h5>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="CrearProgramacionDistribucion" asp-controller="Marketing" method="post" class="row g-3">
+                            <div class="col-md-4">
+                                <label for="distributionName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="distributionName" name="Nombre" required>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="distributionDescription" class="form-label">Description</label>
+                                <input type="text" class="form-control" id="distributionDescription" name="Descripcion">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="distributionSchedule" class="form-label">Schedule Date/Time</label>
+                                <input type="datetime-local" class="form-control" id="distributionSchedule" name="FechaHoraEnvio" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="distributionPool" class="form-label">Email Pool</label>
+                                <select class="form-select" id="distributionPool" name="NombrePool" required>
+                                    <option value="">Select a pool</option>
+                                    <option value="VIP Customers">VIP Customers</option>
+                                    <option value="Regular Customers">Regular Customers</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="distributionCampaign" class="form-label">Campaign</label>
+                                <select class="form-select" id="distributionCampaign" name="CampaignId">
+                                    <option value="">Select a campaign (optional)</option>
+                                    <option value="1">Summer Sale</option>
+                                    <option value="2">Winter Special</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-success">
+                                    <i class="bi bi-save"></i> Create Schedule
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">Distribution Schedules</h5>
+                        <div>
+                            <input type="text" class="form-control" id="searchDistribution" placeholder="Search distributions...">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-striped">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Description</th>
+                                        <th>Schedule</th>
+                                        <th>Email Pool</th>
+                                        <th>Status</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="distributionsTableBody">
+                                    <!-- Sample distribution row -->
+                                    <tr>
+                                        <td>Summer Newsletter</td>
+                                        <td>July newsletter distribution</td>
+                                        <td>2023-07-15 10:00</td>
+                                        <td>VIP Customers</td>
+                                        <td><span class="badge bg-success">Scheduled</span></td>
+                                        <td class="action-buttons">
+                                            <button class="btn btn-sm btn-primary edit-distribution">
+                                                <i class="bi bi-pencil"></i> Edit
+                                            </button>
+                                            <button class="btn btn-sm btn-warning cancel-distribution">
+                                                <i class="bi bi-x-circle"></i> Cancel
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <!-- More rows will be added dynamically -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clients Tab -->
+            <div class="tab-pane fade" id="clients" role="tabpanel">
+                <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">Add New Client</h5>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="CrearCliente" asp-controller="Marketing" method="post" class="row g-3">
+                            <div class="col-md-4">
+                                <label for="clientName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="clientName" name="Nombre" required>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="clientEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="clientEmail" name="Correo" required>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="clientPhone" class="form-label">Phone</label>
+                                <input type="tel" class="form-control" id="clientPhone" name="Telefono" required>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-success">
+                                    <i class="bi bi-save"></i> Add Client
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">Client List</h5>
+                        <div>
+                            <input type="text" class="form-control" id="searchClient" placeholder="Search clients...">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-striped">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Phone</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="clientsTableBody">
+                                    <!-- Sample client row -->
+                                    <tr>
+                                        <td>John Doe</td>
+                                        <td>john.doe@example.com</td>
+                                        <td>+1 555-123-4567</td>
+                                        <td class="action-buttons">
+                                            <button class="btn btn-sm btn-primary edit-client">
+                                                <i class="bi bi-pencil"></i> Edit
+                                            </button>
+                                            <button class="btn btn-sm btn-danger delete-client">
+                                                <i class="bi bi-trash"></i> Delete
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <!-- More rows will be added dynamically -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="tab-pane fade" id="pool" role="tabpanel">
-        @await Html.PartialAsync("_PoolsPartial", ViewBag.Pools as IEnumerable<CEGA.Models.PoolCorreo>)
-    </div>
-    <div class="tab-pane fade" id="dist" role="tabpanel">
-        @await Html.PartialAsync("_DistribucionesPartial", ViewBag.Distribuciones as IEnumerable<CEGA.Models.DistribucionMarketing>)
-    </div>
-    <div class="tab-pane fade" id="clientes" role="tabpanel">
-        @await Html.PartialAsync("_ClientesPartial", ViewBag.Clientes as IEnumerable<CEGA.Models.ClienteMarketing>)
-    </div>
-</div>
 
-@if (TempData["Mensaje"] != null)
-{
-    <div class="alert alert-success">@TempData["Mensaje"]</div>
-}
-@if (TempData["Error"] != null)
-{
-    <div class="alert alert-danger">@TempData["Error"]</div>
-}
+    <!-- Confirmation Modal -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirm Action</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="confirmationMessage">Are you sure you want to perform this action?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger" id="confirmAction">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}
+    <!-- Edit Modals would be added here for each entity type -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Notification function
+        function showNotification(type, message) {
+            const notificationArea = document.getElementById('notificationArea');
+            const alertClass = type === 'success' ? 'alert-success' : 'alert-danger';
+
+            const notification = document.createElement('div');
+            notification.className = `alert ${alertClass} alert-dismissible fade show`;
+            notification.role = 'alert';
+            notification.innerHTML = `
+                <strong>${type === 'success' ? 'Success!' : 'Error!'}</strong> ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            `;
+
+            notificationArea.appendChild(notification);
+
+            // Auto dismiss after 5 seconds
+            setTimeout(() => {
+                notification.remove();
+            }, 5000);
+        }
+
+        // Form submission handlers - We'll let the forms submit normally to controller
+        document.getElementById('createCampaignForm').addEventListener('submit', function() {
+            this.action = '@Url.Action("CrearCampaña", "Marketing")';
+        });
+
+        document.getElementById('createPoolForm').addEventListener('submit', function() {
+            this.action = '@Url.Action("CrearPoolCorreo", "Marketing")';
+        });
+
+        document.getElementById('createDistributionForm').addEventListener('submit', function() {
+            this.action = '@Url.Action("CrearProgramacionDistribucion", "Marketing")';
+        });
+
+        document.getElementById('createClientForm').addEventListener('submit', function() {
+            this.action = '@Url.Action("CrearCliente", "Marketing")';
+        });
+
+        // Delete button handlers (would show confirmation modal)
+        document.querySelectorAll('.delete-campaign, .delete-pool, .delete-client').forEach(button => {
+            button.addEventListener('click', function() {
+                const modal = new bootstrap.Modal(document.getElementById('confirmationModal'));
+                const type = this.classList.contains('delete-campaign') ? 'campaign' :
+                           this.classList.contains('delete-pool') ? 'email pool' : 'client';
+
+                document.getElementById('confirmationMessage').textContent =
+                    `Are you sure you want to delete this ${type}? This action cannot be undone.`;
+
+                document.getElementById('confirmAction').onclick = function() {
+                    // Here you would typically send a delete request to your backend
+                    showNotification('success', `${type.charAt(0).toUpperCase() + type.slice(1)} deleted successfully!`);
+                    modal.hide();
+                };
+
+                modal.show();
+            });
+        });
+
+        // Search functionality
+        document.querySelectorAll('#searchCampaign, #searchPool, #searchDistribution, #searchClient').forEach(input => {
+            input.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                const tableBodyId = this.id.replace('search', '').toLowerCase() + 'TableBody';
+                const rows = document.getElementById(tableBodyId).querySelectorAll('tr');
+
+                rows.forEach(row => {
+                    const rowText = row.textContent.toLowerCase();
+                    row.style.display = rowText.includes(searchTerm) ? '' : 'none';
+                });
+            });
+        });
+
+        // Edit button handlers would activate edit modals for each entity type
+    </script>
+</body>
+</html>
+

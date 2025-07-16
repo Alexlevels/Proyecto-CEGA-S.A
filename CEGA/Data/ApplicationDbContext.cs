@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using CEGA.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using CEGA.Models;
+using TuProyecto.Models;
 
 
 namespace CEGA.Data
@@ -22,6 +23,22 @@ namespace CEGA.Data
         public DbSet<PuestoEmpleado> PuestosEmpleado { get; set; }
         public DbSet<HistorialPuestos> HistorialPuestos { get; set; }
         public DbSet<IncapacidadEmpleado> IncapacidadesEmpleado { get; set; }
+<<<<<<< Updated upstream
+=======
+        public DbSet<Ingreso> Ingresos { get; set; }
+        public DbSet<Egreso> Egresos { get; set; }
+        public DbSet<CierreDiario> CierresDiarios { get; set; }
+        public DbSet<CierreRango> CierresRango { get; set; }
+        public DbSet<IncapacidadEmpleado> Incapacidades { get; set; }
+        public DbSet<ReporteIncapacidad> ReportesIncapacidades { get; set; }
+        public DbSet<ReporteIncidente> ReportesIncidentes { get; set; }
+        public DbSet<ReporteEntradaSalida> ReportesEntradasSalidas { get; set; }
+        public DbSet<Proyecto> Proyectos { get; set; }
+        public DbSet<ComentarioProyecto> ComentariosProyecto { get; set; }
+        public DbSet<TareaProyecto> TareasProyecto { get; set; }
+        public DbSet<AsignacionTareaEmpleado> AsignacionesTareaEmpleado { get; set; }
+
+>>>>>>> Stashed changes
 
     }
 }
